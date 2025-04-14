@@ -1,24 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
 </head>
 <body>
-    <header>
-        <h1>Encabezado</h1>
-        <p>Este es el encabezado principal de la página.</p>
-    </header>
-    <nav>
-        <p>Menú de navegación:</p>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Acerca de</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contacto</a></li>
-          
-        </ul>
-      </nav>
+<!-- Titulo-->
+<table align="center">
+  <tr>
+    <td>
+      <h1> Este es un esquema de Layout para DAW 2025 </h1>
+    </td>
+  </tr>
+</table> 
+<!-- HEADER -->
+  <table border="1" cellpadding="0" cellspacing="10" align="center" >
+    <tr>
+      <td align="center">
+        <a href="#">Inicio</a>
+      </td>
+      <td align="center">
+        <a href="#">Noticias</a>
+      </td>
+      <td align="center">
+        <a href="#">Deportes</a>
+      </td>
+      <td align="center">
+        <a href="#">Clima</a>
+      </td>
+      <!-- Barra lateral-->
+      <td rowspan="2" align="center" width="20%" valign="top">
+        <table  cellpadding="10" cellspacing="0" style="width:100%;">
+          <tr>
+            <td> <a href="#">Inicio</a></td>
+          </tr>
+          <tr>
+            <td> <a href="#">Noticias</a></td>
+          </tr>
+          <tr>
+            <td> <a href="#">Deportes</a></td>
+          </tr>
+          <tr>
+            <td> <a href="#">Clima</a></td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <img src="img/bandera1.png" alt="Bandera Argentina" width="150" height="100">
+      </td>
+    </tr>
+    <tr>
+    <!--Cuerpo-->      
+      <td colspan="4" align="center">
+       <h3><p>Mostramos la bandera argentina</p></h3>
+       <img src="img/bandera1.png" alt="Bandera Argentina" width="300" height="200">
+      </td>
+    
+    </tr>
+  <!-- pie de pagina-->
+  <td colspan="5" align="center">
+    <h3><p>Vega Sebastian - DAW - UAI 2025</p></h3>
+  </table>
+
 </body>
 </html>
