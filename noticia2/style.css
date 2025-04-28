@@ -1,0 +1,74 @@
+.logo {
+    width: 10rem;     /* 200px */
+    height: 7.5rem;   /* 150px */
+    position: fixed;  /* Siempre visible aunque hagas scroll */
+    top: 0;           /* Pegado al borde superior */
+    left: 1;          
+    margin: 0;        
+    z-index: 1000;    /* lo pone por encima de todo */
+  }
+  
+
+.linea {
+    position: fixed;
+    top: 75px; /* mitad del logo */
+    left: 200px; /* arranca un poquito despues de donde termina el logo */
+    height: 2px; /* grosor */
+    width: calc(100% - 210px); /* desde el logo hasta el final */
+    background-color: orange;
+  }
+
+
+  .menu {
+    position: fixed;
+    top: 5rem; /* un poco más abajo que la línea */
+    left: 20rem;
+    display: flex;
+    gap: 1cm;
+    text-transform: uppercase;
+    font-size: 1rem;
+    align-items: center;
+    color:rgb(255, 72, 0);
+  }
+  .cuerpo-nota {
+    margin-top: 6rem; 
+    padding: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .titulo-nota {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .parrafo-nota {
+    font-size: 1.1rem;
+    line-height: 1.3; 
+    margin-bottom: 1.5rem;
+    text-align: justify;
+  }
+  .tabla-logos {
+    border-collapse: collapse; 
+    border: none;             
+    margin-top: 2rem;           
+    margin-left: auto;
+    margin-right: 0;             
+  }
+  
+  .tabla-logos td {
+    border: none;               
+    padding: 0.5rem;           
+  }
+  
+  .logo-tabla {
+    width: 40px;                
+    height: auto;
+  }
+  
+  
+  
