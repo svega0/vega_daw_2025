@@ -1,7 +1,7 @@
 <style>
   body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #d3c9c9;
     margin: 20px;
   }
 
@@ -28,7 +28,7 @@
   }
 
   h1, h2, h3 {
-    color: #2c3e50;
+    color: #1575d4;
     margin: 10px 0;
   }
 
@@ -39,7 +39,7 @@
   }
 
   form {
-    background-color: #eef;
+    background-color: rgb(40, 40, 88);
     padding: 10px;
     border-radius: 5px;
     margin-top: 20px;
