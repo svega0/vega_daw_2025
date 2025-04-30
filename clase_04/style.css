@@ -14,7 +14,6 @@
     width: 100%;      
     background-color: white; 
     z-index: 1000;   
-   
   }
 
 .linea {
@@ -41,8 +40,8 @@
 }
 
   .subtitulo {
-   text-align: left;
-   font-size:smaller;
+    width: fit-content;
+    font-size:smaller;
     background-color: orangered;
     color: white;
     text-transform: uppercase;
@@ -90,7 +89,6 @@
   }
   .parrafo-nota a {
     color:orange;
-   
   }
   .tabla-logos {
     border-collapse: collapse; 

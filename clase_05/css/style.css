@@ -1,0 +1,25 @@
+.title {
+width: fit-content; /*se ajusta al contenido */
+margin: 20px 30px 2px 15px; /*Se asigna en sentido de las ahujas del reloj */
+border: 2px;
+padding: 100px;
+}
+
+.mobile, .table, .desktop {
+    display: none;
+}
+
+ /*no ejecuta la clase hasta que no se cumpla la condicion en este caso para celulares */
+ /*existen varios @media */
+@media only screen and (max-width = 480px) {
+    .mobile {
+        display: block;
+        } 
+}
+
+@media only screen and (min-width = 480px) and (max-width=2048px) {
+    .desktop {
+        display: block;
+    }
+}
+/*para la tecnica mobile first , se hace la clase de .mobile y luego con media se quitan las cosas a los demas */
